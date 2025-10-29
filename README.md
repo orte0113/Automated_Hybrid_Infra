@@ -1,1 +1,0 @@
-# Automated_Hybrid_Infra

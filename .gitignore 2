@@ -1,0 +1,72 @@
+# PKI - Private keys and certificates
+*.key
+*.csr
+*.pem
+*.p12
+*.pfx
+pki/ca/private/
+pki/ca/certs/
+pki/intermediate/private/
+pki/intermediate/certs/
+pki/certs/
+*.srl
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Secrets
+secrets/
+*.secret
+
+# Docker
+.docker/
+
+# Ansible
+*.retry
+ansible/vault_pass.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Monitoring data
+prometheus/data/
+grafana/data/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
