@@ -15,7 +15,7 @@ pki/certs/
 .env
 .env.local
 .env.*.local
-
+.env.example
 # Secrets
 secrets/
 *.secret
